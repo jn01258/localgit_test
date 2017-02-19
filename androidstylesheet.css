@@ -19,6 +19,7 @@ div div {background: #A4CA39; position: relative;}
 .l_eye {left: 50px;}
 .r_eye {right: 50px;}
 
+
 .l_ant, .r_ant {
 
  width: 6px; height: 50px;
@@ -26,5 +27,11 @@ div div {background: #A4CA39; position: relative;}
  border-radius: 3px;
 }
 
-.l_ant {left: 50px;}
-.r_ant {right: 50px;}
+.l_ant {
+  left: 50px;
+  transform: rotate(-30deg)
+}
+.r_ant {
+  right: 50px;
+  transform: rotate(30deg);
+  }
